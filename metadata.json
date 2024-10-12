@@ -1,0 +1,20 @@
+{
+  "KPlugin": {
+      "Name": "Raise on move",
+      "Description": "Raise window when they are moved. This is especially useful, when using \"focus follows mouse\" and moving windows with keyboard shortcuts.",
+      "Icon": "preferences-system-windows",
+      "Authors": [
+          {
+              "Email": "sajito+kde@live.de",
+              "Name": "Gigino Chianese"
+          }
+      ],
+      "Id": "kwin-raise-move",
+      "Version": "1.0",
+      "License": "GPLv3",
+      "Website": "https://github.com/sajito/kwin-raise-move"
+  },
+  "X-Plasma-API": "javascript",
+  "X-Plasma-MainScript": "code/main.js",
+  "KPackageStructure": "KWin/Script"
+}
