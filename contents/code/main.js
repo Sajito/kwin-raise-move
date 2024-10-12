@@ -8,6 +8,7 @@ function raiseWindow(window) {
 
 function registerMoveListener(window) {
   window.outputChanged.connect(() => raiseWindow(window));
+  window.tileChanged.connect(() => raiseWindow(window));
 }
 
 for (const window of workspace.stackingOrder) {
